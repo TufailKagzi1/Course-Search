@@ -20,7 +20,7 @@ import java.time.ZonedDateTime;
 public class Course {
 
     @Id
-    private int id;
+    private String id;
 
     @Field(type = FieldType.Text)
     private String title;
